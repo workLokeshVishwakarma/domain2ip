@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.2s ease-in-out;
+}
+
+html {
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(235, 235, 235) !important;
+}

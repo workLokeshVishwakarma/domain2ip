@@ -1,0 +1,27 @@
+{
+    "name": "domain2ipUrl2ip-converter",
+    "version": "1.0.0",
+    "description": "( Domain 2 IP - URL 2 IP ) - Converter",
+    "main": "server.js",
+    "author": "lexuscreations",
+    "license": "MIT",
+    "scripts": {
+        "serve": "node server",
+        "dev": "nodemon server -e js,ejs"
+    },
+    "keywords": [
+        "domain to ip",
+        "url to ip"
+    ],
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "dns": "^0.2.2",
+        "ejs": "^3.1.3",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0",
+        "util": "^0.12.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}

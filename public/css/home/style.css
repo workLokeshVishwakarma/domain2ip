@@ -1,0 +1,11 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+form .subBtnForm:hover {
+    font-weight: bolder;
+    color: yellow !important;
+}

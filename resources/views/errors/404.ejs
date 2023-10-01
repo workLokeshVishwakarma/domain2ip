@@ -1,0 +1,17 @@
+<div class="text-center">
+    <h1>Cannot Get</h1>
+    <h5 id="urlValue"></h5>
+    <a id="errorPreviousBtn" class="d-inline-block text-decoration-none m-3" style="cursor: pointer;" onclick="goBack()">
+        <i class="fas fa-arrow-left"></i>
+        <span> Go Back</span>
+    </a>
+</div>
+
+<script>
+    let reqUrl = "<%= reqUrl %>"
+    document.getElementById("urlValue").innerHTML = reqUrl
+
+    function goBack() {
+        window.history.back()
+    }
+</script>
